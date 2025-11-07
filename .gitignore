@@ -1,0 +1,45 @@
+# Large data files
+*.las
+*.lis
+*.dlis
+*.pdf
+*.csv
+*.xlsx
+
+# Image outputs (can regenerate from code)
+# Image outputs (can be regenerated)
+*.png
+!CMI_Resolution_*.png
+*.jpg
+*.jpeg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep README and documentation
+!README.md
+
+# Keep sample outputs if needed (uncomment to include specific files)
+# !example_output.png
